@@ -1,0 +1,91 @@
+{
+	"genesis_time": "2018-11-20T12:11:16.347248218Z",
+	"chain_id": "test-chain-ixo",
+	"consensus_params": {
+		"block_size_params": {
+			"max_bytes": "22020096",
+			"max_txs": "10000",
+			"max_gas": "-1"
+		},
+		"tx_size_params": {
+			"max_bytes": "10240",
+			"max_gas": "-1"
+		},
+		"block_gossip_params": {
+			"block_part_size_bytes": "65536"
+		},
+		"evidence_params": {
+			"max_age": "100000"
+		}
+	},
+	"validators": [
+		{
+			"pub_key": {
+				"type": "tendermint/PubKeyEd25519",
+				"value": "dKPwltKgijItP2/Lt0hv28U0XTGr83nMTnDvGS0T0ic="
+			},
+			"power": "5",
+			"name": "did:ixo:2zUvsd1zTZVzUeu1R87Hxi"
+		},
+		{
+			"pub_key": {
+				"type": "tendermint/PubKeyEd25519",
+				"value": "mzWDHw6UfHW2nqQ1wu3spoY+U49ypVknETiIHWqg++Q="
+			},
+			"power": "5",
+			"name": "did:ixo:ECyfofPwRtiH2zpxUCtS5t"
+		}
+	],
+	"app_hash": "",
+	"app_state": {
+		"accounts": [
+			{
+				"address": "cosmosaccaddr13smcmuty48rx5e5gsd4748nsvrrwjs7m2mwma8",
+				"coins": [
+					{
+						"denom": "IXO",
+						"amount": "50"
+					}
+				]
+			},
+			{
+				"address": "cosmosaccaddr1h86s8xmyzaj4jsudcdjjqxupqwaq6y90sml59a",
+				"coins": [
+					{
+						"denom": "IXO",
+						"amount": "50"
+					}
+				]
+			}
+		],
+		"fees": {
+			"ixoFactor": "1",
+			"initiationFeeAmount": "50000000000",
+			"initiationNodeFeePercentage": "0",
+			"claimFeeAmount": "60000000",
+			"evaluationFeeAmount": "40000000",
+			"serviceAgentRegistrationFeeAmount": "0",
+			"evaluationAgentRegistrationFeeAmount": "0",
+			"nodeFeePercentage": "1/2",
+			"evaluationPayFeePercentage": "0",
+			"evaluationPayNodeFeePercentage": "0"
+		},
+		"nodes": [
+			{
+				"did": "did:ixo:2zUvsd1zTZVzUeu1R87Hxi",
+				"ethWallet": "0xD3BdBD3d1A2F68995e5917f3c610B4fED44bc6A1"
+			},
+			{
+				"did": "did:ixo:ECyfofPwRtiH2zpxUCtS5t",
+				"ethWallet": "0x2559463FAE90286F0A74B4dB0d3B392217EcB986"
+			}
+		],
+		"config": {
+			"foundationWallet": "Enter ETH wallet address to accumulate foundations tokens",
+			"authContractAddress": "Enter ETH auth contract address",
+			"ixoTokenContractAddress": "Enter ETH Ixo Token contract address",
+			"projectRegistryContractAddress": "Enter ETH project registry contract address",
+			"projectWalletAuthoriserAddress": "Enter ETH project wallet authoriser contract address"
+		}
+	}
+}
