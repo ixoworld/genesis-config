@@ -1,6 +1,6 @@
 {
   "genesis_time": "2018-11-21T14:45:43.399174679Z",
-  "chain_id": "test-chain-439Xog",
+  "chain_id": "test-chain-ixo",
   "consensus_params": {
     "block_size_params": {
       "max_bytes": "22020096",
