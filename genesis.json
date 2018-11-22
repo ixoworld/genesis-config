@@ -26,7 +26,23 @@
       },
       "power": "10",
       "name": "did:ixo:CKhnDD8JPpG2NKnL1bemGd"
-    }
+    },
+		{
+			"pub_key": {
+				"type": "tendermint/PubKeyEd25519",
+				"value": "vfhq49Dq0ZYpCALkNEpP+2v/LkFLZpVm2sMjXD3D08U="
+			},
+			"power": "10",
+			"name": "did:ixo:SmyjFjpw4JwD5SedP9iwsz"
+		},
+		{
+			"pub_key": {
+				"type": "tendermint/PubKeyEd25519",
+				"value": "dpftUMT0nfOrHmz+yffEs+8uvDN+hng7UCJjSO/kvk8="
+			},
+			"power": "10",
+			"name": "did:ixo:QwXMv5kBT43PcbxH3Fp3AM"
+		}
   ],
   "app_hash": "",
   "app_state": {
@@ -39,7 +55,25 @@
             "amount": "0"
           }
         ]
-      }
+      },
+			{
+				"address": "cosmosaccaddr135pt98x68yne5mf4llah74zv4n9xxpl0tm8ak0",
+				"coins": [
+					{
+						"denom": "IXO",
+						"amount": "0"
+					}
+				]
+			},
+			{
+				"address": "cosmosaccaddr1ndfwl4plefycjm8y0zq966e7gzy9gkthn2rmgm",
+				"coins": [
+					{
+						"denom": "IXO",
+						"amount": "0"
+					}
+				]
+			}
     ],
     "fees": {
       "ixoFactor": "1",
@@ -57,13 +91,22 @@
       {
         "did": "did:ixo:CKhnDD8JPpG2NKnL1bemGd",
         "ethWallet": "0x0a7d7c54DA8F5E04E5e0D877F5FAfcc290c83FE6"
+      },
+			{
+        "did": "did:ixo:SmyjFjpw4JwD5SedP9iwsz",
+        "ethWallet": "0x7016597e24AdD82eac4b85Bc14C072df87d15Ccc"
+      },
+			{
+        "did": "did:ixo:QwXMv5kBT43PcbxH3Fp3AM",
+        "ethWallet": "0x978a016aCC04FEae0eaC28BC2D3536Bd8aE74ce8"
       }
     ],
     "config": {
-      "foundationWallet": "Enter ETH wallet address to accumulate foundations tokens",
-      "authContractAddress": "Enter ETH auth contract address",
-      "ixoTokenContractAddress": "Enter ETH Ixo Token contract address",
-      "projectRegistryContractAddress": "Enter ETH project registry contract address",
-      "projectWalletAuthoriserAddress": "Enter ETH project wallet authoriser contract address"
+      "foundationWallet": "0x21155ec3C9b0946CC7992e62a2b9810E86ae4aF8",
+      "authContractAddress": "0xc29b8374e89c7d4506eff559140394ebb619bea2",
+      "ixoTokenContractAddress": "0x24cc742b89ba0f113e368571cb10107a0c27023d",
+      "projectRegistryContractAddress": "0x9b1c7a77e5227fd17b4bb5fa73557ec14a1fc266",
+      "projectWalletAuthoriserAddress": "0xaced501eb8f138870bdb7fd90d56acb7d3b15615"
     }
   }
+}
